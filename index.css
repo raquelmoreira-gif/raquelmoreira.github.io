@@ -1,0 +1,182 @@
+body {
+    color: black;
+    background-color: rgb(207, 202, 187);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 3px 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(73, 59, 49);
+}
+
+.center {
+    text-align: center;
+    margin-left: 15px;
+}
+
+h1 {
+    color: rgb(92, 66, 47);
+}
+
+footer img {
+    width: 20px;
+    height: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+footer a {
+    margin: 0 8px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+}
+
+footer {
+    margin-top: auto;
+}
+
+nav a:hover{
+    color: rgb(71, 36, 11);
+}
+
+nav {
+    background-color: rgb(231, 229, 223);
+    border-radius: 12px;
+    margin: 4px 0;
+    padding: 2px 0;
+}
+
+nav {
+    margin-left: -50px;
+    margin-right: -50px;
+}
+
+nav, footer {
+    border-radius: 8px;
+}
+
+nav a {
+    color: rgb(54, 34, 20);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.cursos {
+    max-width: 700px;
+    margin: 40px 0 40px 50px;
+    padding: 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #050505;
+    line-height: 1.6;
+}
+
+.curso span {
+    font-weight: 400;
+    color: #555
+}
+
+section h2 {
+    margin-bottom: 6px;
+}
+
+section p {
+    margin-top: 0;
+}
+
+.subtitulo {
+    font-size: 0.9rem;
+    font-weight: 550;
+    color: #3a241e;
+
+    margin-top: -15px;
+    margin-left: 24px;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: rgb(73, 59, 49);
+    margin-top: 12px;
+}
+
+.sobre-mim {
+    max-width: 700px;
+    margin: 20px o 20px 50px;
+    padding: 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #050505;
+    line-height: 1.6;
+}
+
+.sobre-mim h2 {
+    color: rgb(54, 34, 20);
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.sobre-mim p {
+    margin-bottom: 8px; 
+}
+
+.contato-icones {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.contato-icones img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+}
+
+.contato-icones img:hover {
+    transform: scale(1.2);
+}
