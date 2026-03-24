@@ -17,10 +17,11 @@ a {
 }
 
 header img {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
-    border: 5px solid rgb(73, 59, 49);
+    object-fit: cover;
+    border: 4px solid rgb(73, 59, 49);
 }
 
 .center {
